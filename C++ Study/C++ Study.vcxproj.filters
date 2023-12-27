@@ -13,48 +13,90 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
-    <Filter Include="Resource Files\pointer">
-      <UniqueIdentifier>{693e87a2-f667-4263-806f-21662bfab436}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="Resource Files\LinkedList">
+    <Filter Include="Source Files\LinkedList">
       <UniqueIdentifier>{32546eb8-35df-4f9a-8fd0-ff8060bdb385}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Source Files\pointer">
+      <UniqueIdentifier>{693e87a2-f667-4263-806f-21662bfab436}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Hash">
+      <UniqueIdentifier>{92dd9756-d5fb-42c6-91fc-d4dd2ee20e14}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\algorithm">
+      <UniqueIdentifier>{b1cef335-bd73-4b70-97b6-173bb5fd01ca}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\ㅈ대로하기">
+      <UniqueIdentifier>{485c2506-4c09-4efb-9e89-ac52e5931c93}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\ㅈ대로하기\source">
+      <UniqueIdentifier>{3705b842-78dd-426f-a419-68a0dc7fad82}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\ㅈ대로하기\header">
+      <UniqueIdentifier>{8ea2f5a4-30f5-4c82-a98c-e3cf46d5c645}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\ㅈ대로하기\header\macro">
+      <UniqueIdentifier>{9c3ad5ee-3069-4076-9ad4-950fa347ba4d}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="template.cpp">
-      <Filter>Resource Files</Filter>
-    </ClCompile>
-    <ClCompile Include="inline.cpp">
-      <Filter>Resource Files</Filter>
-    </ClCompile>
     <ClCompile Include="array ptr.cpp">
-      <Filter>Resource Files\pointer</Filter>
+      <Filter>Source Files\pointer</Filter>
     </ClCompile>
     <ClCompile Include="class ptr.cpp">
-      <Filter>Resource Files\pointer</Filter>
+      <Filter>Source Files\pointer</Filter>
     </ClCompile>
     <ClCompile Include="pointer.cpp">
-      <Filter>Resource Files\pointer</Filter>
+      <Filter>Source Files\pointer</Filter>
     </ClCompile>
     <ClCompile Include="function ptr.cpp">
-      <Filter>Resource Files\pointer</Filter>
+      <Filter>Source Files\pointer</Filter>
     </ClCompile>
     <ClCompile Include="Exclass.cpp">
-      <Filter>Resource Files\pointer</Filter>
+      <Filter>Source Files\pointer</Filter>
     </ClCompile>
     <ClCompile Include="string ptr.cpp">
-      <Filter>Resource Files\pointer</Filter>
+      <Filter>Source Files\pointer</Filter>
     </ClCompile>
     <ClCompile Include="LinkedList.cpp">
-      <Filter>Resource Files\LinkedList</Filter>
+      <Filter>Source Files\LinkedList</Filter>
+    </ClCompile>
+    <ClCompile Include="template.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="inline.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files\ㅈ대로하기\source</Filter>
+    </ClCompile>
+    <ClCompile Include="RandomIdentity.cpp">
+      <Filter>Source Files\ㅈ대로하기\source</Filter>
+    </ClCompile>
+    <ClCompile Include="등차수열.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="explicit.cpp">
+      <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="Exclass.h">
-      <Filter>Resource Files\pointer</Filter>
+    <ClInclude Include="Hash.h">
+      <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="LinkedList.h">
-      <Filter>Resource Files\LinkedList</Filter>
+      <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="Exclass.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="RandomIdentity.h">
+      <Filter>Source Files\ㅈ대로하기\header</Filter>
+    </ClInclude>
+    <ClInclude Include="emptyVec.h">
+      <Filter>Source Files\ㅈ대로하기\header\macro</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="cpp.hint" />
   </ItemGroup>
 </Project>

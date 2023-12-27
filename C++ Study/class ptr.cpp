@@ -23,7 +23,11 @@ int main()
 	classPtr->a;
 	classPtr->func();
 
+	delete classPtr;
+
 	//동적 할당
 	myClass* ClassPtr = new myClass;
 	ClassPtr->func();
+
+	delete ClassPtr;
 }
